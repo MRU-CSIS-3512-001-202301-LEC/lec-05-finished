@@ -2,13 +2,13 @@
 
 // http://127.0.0.1:8080/2-session-state/page2.php
 
-session_start();
+// session_start();
 
 
-
-$_SESSION['foo'] = 123;
-$_SESSION['logged_in'] = true;
-$_SESSION['user_name'] = "Mr. Tripply";
+// 🧠 What if we try to do the following without a session_start?
+// $_SESSION['foo'] = 123;
+// $_SESSION['logged_in'] = true;
+// $_SESSION['user_name'] = "Mr. Tripply";
 
 
 // 🧠 What kind of things can we write in here?
